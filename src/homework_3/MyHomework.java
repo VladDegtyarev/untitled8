@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MyHomework {
     public static void main(String[]args){
-
+calculateDescending();
 
     }
 
@@ -131,6 +131,9 @@ public class MyHomework {
         }
     }
     public static void useWhile(){
+        //Необходимо, чтоб программа выводила на экран вот такую последовательность:
+        //7 14 21 28 35 42 49 56 63 70 77 84 91 98.
+        //В решении используйте цикл while.
         int counter =1;
         while (counter<=14){
             System.out.println(counter *7);
@@ -138,10 +141,9 @@ public class MyHomework {
         }
 
     }
-    //Необходимо, чтоб программа выводила на экран вот такую последовательность:
-    //7 14 21 28 35 42 49 56 63 70 77 84 91 98.
-    //В решении используйте цикл while.
+
     public static void  printSequence(){
+        //Вывести 10 первых чисел последовательности 0, -5,-10,-15..
         int value = 0;
         while (value<=10){
             System.out.println(value*-5);
@@ -149,7 +151,7 @@ public class MyHomework {
         }
     }
     public static void printSquare() {
-        //Вывести 10 первых чисел последовательности 0, -5,-10,-15..
+        //Составить программу выводящую на экран квадраты чисел от 10 до 20
         for (int value = 10; value <= 20; value++) {
             System.out.println(value * value);
         }
