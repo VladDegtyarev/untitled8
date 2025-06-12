@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class MyHomework {
     public static void main(String[]args){
-calculateDescending();
+calculateOdd();
+
 
     }
 
