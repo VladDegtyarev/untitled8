@@ -18,24 +18,25 @@ public class MyHomework {
     }
     public static void CreditCard(){
         CreditCard firstPerson = new CreditCard("Vlad",random(), (long) (Math.random()*10000));
-        System.out.printf(firstPerson.getDebitCardInformation());
+        System.out.printf(firstPerson.getCreditCardInformation());
         System.out.print("Please, enter how much do you want to put in : ");
         firstPerson.addMoney(getInput().nextLong());
         System.out.println("****************************************************************");
 
         CreditCard secondPerson = new CreditCard("Lisa", random(), (long) (Math.random()*10000));
-        System.out.printf(secondPerson.getDebitCardInformation());
+        System.out.printf(secondPerson.getCreditCardInformation());
         System.out.print("Please, enter how much do you want to put in : ");
         secondPerson.addMoney(getInput().nextLong());
         System.out.println("****************************************************************");
 
         CreditCard thirdPerson = new CreditCard("Dima", random(), (long) (Math.random()*10000));
-        System.out.printf(thirdPerson.getDebitCardInformation());
+        System.out.printf(thirdPerson.getCreditCardInformation());
         System.out.print("Please, enter how much do you want to withdraw :");
         thirdPerson.takeMoney(getInput().nextLong());
         System.out.println("*****************************************************************");
-        System.out.println(firstPerson.getDebitCardInformation());
-        System.out.println(secondPerson.getDebitCardInformation());
-        System.out.printf(thirdPerson.getDebitCardInformation());
+        System.out.println(firstPerson.getCreditCardInformation());
+        System.out.println(secondPerson.getCreditCardInformation());
+        System.out.printf(thirdPerson.getCreditCardInformation());
     }
+
 }

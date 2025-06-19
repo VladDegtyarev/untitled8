@@ -15,8 +15,8 @@ public class CreditCard {
         this.creditCardBalance = creditCardValance;
     }
 
-    public String getDebitCardInformation() {
-        return "Your name are : " + nameOwner+"\n"+
+    public String getCreditCardInformation() {
+        return "Owner : " + nameOwner+"\n"+
                 "Debit Card Number is: " + creditCardNumber + "\n" +
                 "Debit Card balance is:  " + creditCardBalance + "\n" ;
 
