@@ -17,8 +17,8 @@ public class CreditCard {
 
     public String getCreditCardInformation() {
         return "Owner : " + nameOwner+"\n"+
-                "Debit Card Number is: " + creditCardNumber + "\n" +
-                "Debit Card balance is:  " + creditCardBalance + "\n" ;
+                "Credit Card Number is: " + creditCardNumber + "\n" +
+                "Credit Card balance is:  " + creditCardBalance + "\n" ;
 
 
     }
