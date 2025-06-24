@@ -16,6 +16,7 @@ public class Phone {
         this.number = number;
         this.model = model;
         this.weight=weight;
+        Phone phone = new Phone(1232456, "C14");
 
     }
 
