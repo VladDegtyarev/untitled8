@@ -1,5 +1,7 @@
 package homework_8.figures;
 
+import homework_8.figures.Figure;
+
 public class Rectangle extends Figure {
     private double sideA;
     private double sideB;

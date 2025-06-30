@@ -1,7 +1,5 @@
 package homework_8.figures;
 
-import homework_8.figures.Figure;
-
 class Circle extends Figure {
     private double radius;
 

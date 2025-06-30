@@ -1,5 +1,7 @@
 package homework_8.figures;
 
+import homework_8.figures.Figure;
+
 public class Triangle extends Figure {
     private double base;
     private double height;
