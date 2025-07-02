@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class MyHomework {
     public static void main(String[] args) {
-        newDocument();
+        CreateDocument();
     }
 
     public static Scanner getInput() {
         return new Scanner(System.in);
     }
-    public static void newDocument() {
+    public static void CreateDocument() {
         System.out.print("Please enter the name document :");
         try {
             NameDocument myDoc = new NameDocument(getInput().nextLine());
